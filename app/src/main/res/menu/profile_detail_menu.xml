@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile_update"
+        android:title="Edit Profile"/>
+    <item
+        android:id="@+id/profile_add_drink"
+        android:title="@string/add_drink"/>
+    <item
+        android:id="@+id/profile_bac"
+        android:title="@string/get_bac"/>
+    <item
+        android:id="@+id/profile_delete"
+        android:title="@string/delete"/>
+
+</menu>

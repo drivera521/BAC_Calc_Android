@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Drink View Preference">
+
+        <ListPreference
+            android:key="@string/pref_key"
+            android:title="@string/preference_title"
+            android:summary="@string/pref_summary"
+            android:entries="@array/ListViewPreference"
+            android:entryValues="@array/ListViewEntry"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
