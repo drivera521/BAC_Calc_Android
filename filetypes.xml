@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="Rockwell.ttc" type="Font" />
+      <mapping pattern="HelveticaNeue.ttc" type="Font" />
+      <mapping ext="ttc" type="Font" />
+      <mapping ext="webp" type="Image" />
+    </extensionMap>
+  </component>
+</application>
