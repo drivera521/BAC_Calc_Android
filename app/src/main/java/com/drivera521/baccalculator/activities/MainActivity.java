@@ -21,7 +21,7 @@ import android.os.Bundle;
 import com.drivera521.baccalculator.drink_database.DrinkContract;
 import com.drivera521.baccalculator.drink_database.DrinkData;
 import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.fragments.MainScreenFragment;
+import com.drivera521.baccalculator.fragments.MainScreenFragment;
 
 import java.util.ArrayList;
 
