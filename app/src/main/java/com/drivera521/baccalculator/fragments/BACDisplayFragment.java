@@ -79,9 +79,16 @@ public class BACDisplayFragment extends Fragment {
         BACListAdapter adapter = new BACListAdapter(getActivity(),drinkingLog);
         drinkLogList.setAdapter(adapter);
 
-        drinkListLbl.setText(profileName + " Drink List");
+        String soberText = "";
+        drinkListLbl.setText(profileName + "'s Drink List");
 
-        String soberText = "You have " + stdDrinkTotal + " hours to sober up from last drink";
+        if (stdDrinkTotal == 1){
+            soberText = "You have " + stdDrinkTotal + " hour to have a zero BAC reading";;
+        } else {
+            soberText = "You have " + stdDrinkTotal + " hours to have a zero BAC reading";;
+        }
+
+
 
         timeToSober.setText(soberText);
 
