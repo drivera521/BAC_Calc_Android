@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -12,8 +12,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.annotation.Nullable;
-import android.support.v4.content.FileProvider;
+import androidx.annotation.Nullable;
+import androidx.core.content.FileProvider;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,9 +23,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkDatabaseHelper;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.drink_database.DrinkContract;
+import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
 
 import java.io.File;
 import java.io.IOException;

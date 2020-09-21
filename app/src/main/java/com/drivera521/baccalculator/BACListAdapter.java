@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1;
+package com.drivera521.baccalculator;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkLog;
+import com.drivera521.baccalculator.drink_database.DrinkLog;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

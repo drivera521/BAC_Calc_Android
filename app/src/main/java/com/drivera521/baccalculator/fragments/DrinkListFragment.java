@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -17,15 +17,14 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListView;
 
-
-import com.example.daniel.riveradaniel_project1.activities.CustomizedDrinkActivity;
-import com.example.daniel.riveradaniel_project1.activities.DrinkDetailActivity;
-import com.example.daniel.riveradaniel_project1.DrinkGridAdapter;
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.activities.ViewPreferenceActivity;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkData;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkDatabaseHelper;
+import com.drivera521.baccalculator.activities.CustomizedDrinkActivity;
+import com.drivera521.baccalculator.activities.DrinkDetailActivity;
+import com.drivera521.baccalculator.DrinkGridAdapter;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.activities.ViewPreferenceActivity;
+import com.drivera521.baccalculator.drink_database.DrinkContract;
+import com.drivera521.baccalculator.drink_database.DrinkData;
+import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
 
 import java.util.ArrayList;
 

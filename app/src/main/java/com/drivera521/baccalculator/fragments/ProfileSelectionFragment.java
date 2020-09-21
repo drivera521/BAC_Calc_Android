@@ -1,24 +1,26 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
+import androidx.annotation.Nullable;
+
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.example.daniel.riveradaniel_project1.CustomProfileListAdapter;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileContract;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.activities.ProfileDetailActivity;
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.activities.RegistrationActivity;
+import com.drivera521.baccalculator.CustomProfileListAdapter;
+import com.drivera521.baccalculator.drink_database.ProfileContract;
+import com.drivera521.baccalculator.drink_database.ProfileDatabaseHelper;
+import com.drivera521.baccalculator.activities.ProfileDetailActivity;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.activities.RegistrationActivity;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 

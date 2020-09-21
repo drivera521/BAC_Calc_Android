@@ -1,14 +1,14 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.example.daniel.riveradaniel_project1.R;
+import com.drivera521.baccalculator.R;
 
 public class CreditFragment extends Fragment {
 

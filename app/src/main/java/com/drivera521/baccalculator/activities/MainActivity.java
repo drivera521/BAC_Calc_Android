@@ -11,16 +11,16 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkData;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkDatabaseHelper;
+import com.drivera521.baccalculator.R;
+import android.os.Bundle;
+import com.drivera521.baccalculator.drink_database.DrinkContract;
+import com.drivera521.baccalculator.drink_database.DrinkData;
+import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
 import com.example.daniel.riveradaniel_project1.fragments.MainScreenFragment;
 
 import java.util.ArrayList;

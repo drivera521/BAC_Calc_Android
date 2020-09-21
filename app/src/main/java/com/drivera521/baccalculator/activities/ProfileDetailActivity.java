@@ -2,15 +2,15 @@
 //MDV 469 - 1805
 //ProfileDetailActivity.java
 
-package com.example.daniel.riveradaniel_project1.activities;
+package com.drivera521.baccalculator.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.fragments.ProfileDetailFragment;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.fragments.ProfileDetailFragment;
 
 public class ProfileDetailActivity extends AppCompatActivity {
 

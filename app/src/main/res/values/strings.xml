@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">RiveraDaniel_Project1</string>
+    <string name="app_name">BACCalculator</string>
     <string name="bac_live">BAC LIVE</string>
     <string name="start">START</string>
     <string name="credits">CREDITS</string>
-    <string name="disclaimer">Disclaimer: This app represents an estimation of what your blood alcohol content value truly is. This is to be used for entertainment purposes only.</string>
+    <string name="disclaimer">Disclaimer: This app represents an estimation of what your blood alcohol content value truly is. It is intended for informational, educational and entertainment purposes only and cannot be used in a court of law. We do not take responsibility for decisions taken by the user based solely on the information given from this app. If you have been drinking please use a designated driver to arrive home safely.</string>
     <string name="profiles">PROFILES</string>
     <string name="prgmmr">Programmer</string>
     <string name="credit">CREDIT</string>
@@ -36,16 +36,13 @@
     <string name="app_name_label">BAC LIVE</string>
     <string name="bac_level">BAC LEVEL</string>
     <string name="bac_placeholder">0.000</string>
-    <string name="drink_list">Drink List</string>
     <string name="alcohol_by_volume">Alcohol % by Volume:</string>
     <string name="number_of_ounces">Number of Ounces:</string>
     <string name="value">value</string>
-    <string name="textview">TextView</string>
     <string name="drinkname">DrinkName</string>
     <string name="todo">TODO</string>
     <string name="_0_000">0.000</string>
     <string name="textview">TextView</string>
-    <string name="placeholder">placeholder</string>
     <string name="placeholder">placeholder</string>
     <string name="drink_list">Drink List</string>
     <string name="username">Username</string>

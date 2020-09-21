@@ -2,7 +2,7 @@
 //MDV 469 - 1805
 //DrinkGridAdapter.java
 
-package com.example.daniel.riveradaniel_project1;
+package com.drivera521.baccalculator;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,7 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkData;
+import com.drivera521.baccalculator.drink_database.DrinkData;
 
 import java.util.ArrayList;
 

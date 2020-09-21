@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1;
+package com.drivera521.baccalculator;
 
 import android.content.Context;
 import android.view.LayoutInflater;

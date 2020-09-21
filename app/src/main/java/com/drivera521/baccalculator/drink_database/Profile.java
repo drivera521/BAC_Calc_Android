@@ -2,7 +2,7 @@
 //MDV469 - O
 //Profile.java
 
-package com.example.daniel.riveradaniel_project1.drink_database;
+package com.drivera521.baccalculator.drink_database;
 
 public class Profile {
 

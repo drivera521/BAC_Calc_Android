@@ -1,11 +1,12 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.Fragment;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,10 +15,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.example.daniel.riveradaniel_project1.drink_database.Profile;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileContract;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.R;
+import com.drivera521.baccalculator.drink_database.Profile;
+import com.drivera521.baccalculator.drink_database.ProfileContract;
+import com.drivera521.baccalculator.drink_database.ProfileDatabaseHelper;
+import com.drivera521.baccalculator.R;
 
 public class UpdateFragment extends Fragment {
 

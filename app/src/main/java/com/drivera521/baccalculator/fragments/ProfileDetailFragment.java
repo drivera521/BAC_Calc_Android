@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -17,17 +17,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.example.daniel.riveradaniel_project1.activities.BACDisplayActivity;
-import com.example.daniel.riveradaniel_project1.activities.DrinkListActivity;
-import com.example.daniel.riveradaniel_project1.drink_database.Profile;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileContract;
-import com.example.daniel.riveradaniel_project1.drink_database.ProfileDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.activities.UpdateActivity;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkLogContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkLogDatabase;
+import com.drivera521.baccalculator.activities.BACDisplayActivity;
+import com.drivera521.baccalculator.activities.DrinkListActivity;
+import com.drivera521.baccalculator.drink_database.Profile;
+import com.drivera521.baccalculator.drink_database.ProfileContract;
+import com.drivera521.baccalculator.drink_database.ProfileDatabaseHelper;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.activities.UpdateActivity;
+import com.drivera521.baccalculator.drink_database.DrinkContract;
+import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
+import com.drivera521.baccalculator.drink_database.DrinkLogContract;
+import com.drivera521.baccalculator.drink_database.DrinkLogDatabase;
 
 public class ProfileDetailFragment extends Fragment {
 

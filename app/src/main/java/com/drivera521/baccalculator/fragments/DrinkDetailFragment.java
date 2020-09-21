@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,12 +18,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-import com.example.daniel.riveradaniel_project1.R;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkData;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkDatabaseHelper;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkLogContract;
-import com.example.daniel.riveradaniel_project1.drink_database.DrinkLogDatabase;
+import com.drivera521.baccalculator.R;
+import com.drivera521.baccalculator.drink_database.DrinkContract;
+import com.drivera521.baccalculator.drink_database.DrinkData;
+import com.drivera521.baccalculator.drink_database.DrinkDatabaseHelper;
+import com.drivera521.baccalculator.drink_database.DrinkLogContract;
+import com.drivera521.baccalculator.drink_database.DrinkLogDatabase;
 
 import java.util.ArrayList;
 

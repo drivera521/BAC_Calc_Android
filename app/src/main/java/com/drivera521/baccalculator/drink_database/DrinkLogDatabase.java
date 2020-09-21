@@ -1,4 +1,4 @@
-package com.example.daniel.riveradaniel_project1.drink_database;
+package com.drivera521.baccalculator.drink_database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
