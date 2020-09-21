@@ -2,20 +2,20 @@
 //MDV469 - O
 //MainScreenFragment.java
 
-package com.example.daniel.riveradaniel_project1.fragments;
+package com.drivera521.baccalculator.fragments;
 
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.daniel.riveradaniel_project1.activities.CreditActivity;
-import com.example.daniel.riveradaniel_project1.activities.ProfileSelectionActivity;
-import com.example.daniel.riveradaniel_project1.R;
+import com.drivera521.baccalculator.activities.CreditActivity;
+import com.drivera521.baccalculator.activities.ProfileSelectionActivity;
+import com.drivera521.baccalculator.R;
 
 public class MainScreenFragment extends Fragment {
 
